@@ -2,7 +2,7 @@ import { Layers } from "naksha-components-react";
 import React from "react";
 
 export default function NakshaLayers() {
-  const endpoint = `${window.location.origin}/naksha`;
+  const endpoint = `http://localhost/naksha`;
 
   return (
     <div
